@@ -21,7 +21,7 @@ const options = {
 
 export default function Map() {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey:'AIzaSyAZtzr0zKXCo5pPesqmYijcz4kx9uC7LP0',
+    googleMapsApiKey:'',
     libraries,
   });
 
@@ -65,7 +65,7 @@ export default function Map() {
 
   if (loadError) return "Error";
   if (!isLoaded) return "Loading...";
-
+  
   return (
     <div>
       <div className="google-map-header"> 
