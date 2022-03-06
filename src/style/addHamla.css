@@ -1,0 +1,27 @@
+.add-Hamla-form {
+    background-color: #ffffff;
+    padding: 10vw;
+}
+
+.add-Hamla-form .field {
+    display: flex;
+    flex-direction: column;
+    text-align: right;
+    padding: 10px;
+   
+}
+
+.add-Hamla-form .field input[type=text],input[type=password] {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px #707070;
+}
+
+.error-message {
+    color: rgb(196, 13, 13);
+    text-align: right;
+}
+
+
+

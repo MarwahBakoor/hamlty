@@ -21,11 +21,11 @@ const options = {
 
 export default function Map() {
   const { isLoaded, loadError } = useLoadScript({
-    googleMapsApiKey:'',
+    googleMapsApiKey:'AIzaSyAZtzr0zKXCo5pPesqmYijcz4kx9uC7LP0',
     libraries,
   });
 
-  const [markers, setMarkers] = React.useState([
+  const [markers] = React.useState([
     {
       lat: 21.421399587232834,
       lng: 39.879780855252385,

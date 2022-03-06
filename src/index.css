@@ -78,3 +78,37 @@ h1 {
   background-image: linear-gradient(to top, #6f9181 0% , #5d9479 100%);
 
 }
+
+.header{
+  height: 15vh;
+  background-color: #F4F3EA;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 30px;
+  font-weight: 500;
+  justify-content: center;
+  color: #699882;
+}
+
+.btn {
+  background-image: linear-gradient(to top, #ABD1C0 0% , #88C5A8 100%);
+  color: #ffffff;
+  font-family: 'Tajawal', sans-serif;
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  padding: 10px;
+  margin-top: 10px;
+}
+.Logo {
+  padding: 0 50px;
+  width: 100%;
+  background: transparent;
+}
+
+.Logo img{
+  width: 60px;
+  margin:  0 80vw;
+}
+
