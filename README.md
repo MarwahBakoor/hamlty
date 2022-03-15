@@ -1,4 +1,4 @@
-# MyReads Project
+# Hamlty
 
 This repository is the first task for web development training at Brmjha,
 
